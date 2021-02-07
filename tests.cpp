@@ -10,6 +10,11 @@ TEST(test_basic, basic_test_set)
     ASSERT_TRUE(output == "result:4");
 }
 
+TEST(test_int, basic_test_set)
+{
+    ASSERT_TRUE(4 == complex_calculation(2,2));
+}
+
 
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
