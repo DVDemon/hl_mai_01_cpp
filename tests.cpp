@@ -4,10 +4,10 @@
 TEST(test_basic, basic_test_set)
 {
     testing::internal::CaptureStdout();
-    std::cout << "result:" << complex_calculation(3,3);
+    std::cout << "result:" << complex_calculation(2,3);
 
     std::string output = testing::internal::GetCapturedStdout();
-    ASSERT_TRUE(output == "result:6");
+    ASSERT_TRUE(output == "result:5");
 }
 
 TEST(test_int, basic_test_set)
