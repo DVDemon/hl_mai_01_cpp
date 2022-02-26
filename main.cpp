@@ -3,7 +3,7 @@
 
 #include "config.h"
 
-int main([[maybe_unused]]int argc,[[maybe_unused]] char*argv[])
+int main()
 {
     std::cout << "Hello world!" << std::endl;
     std::cout << get_config_string() << std::endl;
