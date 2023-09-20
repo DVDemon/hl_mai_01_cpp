@@ -7,7 +7,7 @@ SET (EXAMPLE_BINARY "hl_mai_01")
 find_package(GTest REQUIRED)
 find_package(Threads)
 
-add_executable(${EXAMPLE_BINARY} main.cpp )
+add_executable(${EXAMPLE_BINARY} main.cpp new_lib.cpp)
 add_executable(gtests tests.cpp)
 add_library(library config.cpp)
 

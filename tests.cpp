@@ -12,7 +12,7 @@ TEST(test_basic, basic_test_set)
 
 TEST(test_int, basic_test_set)
 {
-    ASSERT_TRUE(4 == complex_calculation(2,2));
+    ASSERT_TRUE(5 == complex_calculation(2,2));
 }
 
 
