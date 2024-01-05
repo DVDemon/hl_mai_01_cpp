@@ -1,7 +1,8 @@
 repo_name: DVDemon/hl_mai_01_cpp
 report_id: a46a3ae350051924b018fdaf700bffe4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T09:28:14+00:00'
+timestamp: '2024-01-05T08:57:53+00:00'
 requested_by: DVDemon
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_01_cpp
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_01_cpp
   detection_source: Repo Metadata
 - name: CMake
   description: 'An open-source system that manages the build process '
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/DVDemon/hl_mai_01_cpp
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -43,4 +47,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DVDemon/hl_mai_01_cpp
   detection_source: Repo Metadata
